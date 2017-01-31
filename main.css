@@ -1,0 +1,138 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "oswald",sans-serif;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.fix{
+	overflow: hidden;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float:right;
+}
+.left{
+	width: 50%;
+}
+.left>img{
+	float: left;
+}
+.left>h1{
+	float: left;
+	text-transform: uppercase;
+	margin: 0 5px;
+	padding-top: 15px;
+}
+.right{
+	width: 50%;
+}
+.right>ul{
+	float: right;
+}
+.right>ul>li{
+	list-style: none;
+	float: left;
+	margin: 5px;
+	position: relative;
+}
+.right>ul>li>img{
+	position: absolute;
+	top: 40%;
+	left: 30%;
+}
+
+.menu>ul>li{
+	list-style: none;
+	float: left;
+}
+.menu>ul>li{
+	list-style: none;
+	float: left;
+}
+.menu>ul>li>a{
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 20px 20px 20px 0;
+	display: block;
+	color: #333;
+	font-weight: bold;
+}
+.menu>ul>li>a:hover{
+	color: #2cc26b;
+}
+.background{
+    margin-bottom: 7em;
+    background-image: url(../images/s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background>img{
+	margin: 0 auto; 
+    transform: translateY(13%);
+}
+.text{
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center
+}
+.text>p{
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.text>a{
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    background: #2cc26b;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+.text>a:hover {
+    background: #58D3F7;
+    color: #585858;
+}
+.footer_part{
+	background: #333;
+    overflow: hidden;
+    margin-top: 1em;
+    padding: 2em 0;
+}
+.footer_left{
+	width: 50%;
+	float: left;
+}
+.footer_left>h1{
+    text-transform: uppercase;
+    margin: 0;
+    color: #fff;
+}
+.footer_right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.footer_right>a{
+	text-transform: uppercase;
+    padding: 10px 20px;
+    color: #fff;
+    background: #2cc26b;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.footer_right>a:hover {
+    background:#58D3F7;
+    color: #585858;
+}
+
+
